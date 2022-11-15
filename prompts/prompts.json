@@ -1,0 +1,758 @@
+[
+    {
+        "uid": "89d36b2d-3390-4c62-a0f1-c6e32219ad78",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "cosmos universe innovative visionary recent, laughter, euphoria, jubilation, in the style of Piet Mondrian and Kazimir Malevich"
+    },
+    {
+        "uid": "9afa2823-4f0f-4b27-a5fb-4cfee5d654c1",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "vision astrolithology novel recent futuristic, contentment, enchantment, joy, in the style of Paul Cézanne and Franz Marc"
+    },
+    {
+        "uid": "03c16f90-99c0-4f2a-8c61-eb1a3421e9c8",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "universe stars modern innovative recent, elation, bliss, passion, in the style of Frida Kahlo and Franz Marc"
+    },
+    {
+        "uid": "c4661f1c-470a-4a6f-a7e2-917e85e5905b",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "municipal city recent pioneering novel, delight, enjoyment, elation, in the style of Franz Marc and Aleksandra Ekster"
+    },
+    {
+        "uid": "1dc601d3-1533-42e3-9d9d-8178c7691d1c",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "village municipal futuristic advanced recent, contentment, euphoria, beatitude, in the style of Salvador Dalí and Francis Bacon"
+    },
+    {
+        "uid": "ee36178b-8ff8-4725-895b-4b077d4132c9",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "inner-city downtown modern advanced recent, joy, enjoyment, contentment, in the style of Georges Braque and Cesar Legaspi"
+    },
+    {
+        "uid": "a4a7e366-1ffd-4b06-9b03-df1285ab1ca6",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "countryside environment modern visionary avant-garde, optimism, elation, bliss, in the style of Francis Bacon and Jacques Lipchitz"
+    },
+    {
+        "uid": "9226eb2d-7000-489f-a96b-f8d0a947e22f",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "forest environment pioneering advanced state-of-the-art, enjoyment, jubilation, fantasm, in the style of Salvador Dalí and Marc Chagall"
+    },
+    {
+        "uid": "c69545c3-1d69-4e2f-a8ce-7b5852b93c54",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "cubism",
+        "prompt": "forest landscape visionary novel revolutionary, jubilation, enchantment, pleasure, in the style of Aleksandra Ekster and Robert Delaunay"
+    },
+    {
+        "uid": "56787c3c-aa0c-4bf2-8365-16e92162aff8",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "cliff sierra novel avant-garde modern, tantrum, animosity, fury, in the style of Kazimir Malevich and Aleksandra Ekster"
+    },
+    {
+        "uid": "12c4a516-5929-4700-a51e-0b1ee40bc33e",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "hill outdoors revolutionary visionary avant-garde, animosity, violence, anger, in the style of Cesar Legaspi and Aleksandra Ekster"
+    },
+    {
+        "uid": "8ac5566b-9bd6-4882-a9f5-b62348fe6843",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "seascape hill visionary revolutionary recent, resentment, antagonism, irritation, in the style of Robert Delaunay and Jacques Lipchitz"
+    },
+    {
+        "uid": "de292673-4369-4ec5-b80c-4d47842758f0",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "citified central advanced innovative futuristic, violence, resentment, acrimony, in the style of Aleksandra Ekster and Marc Chagall"
+    },
+    {
+        "uid": "26ef5d8b-7b7d-4cd9-a177-97b397d4a99c",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "metropolis metropolitan state-of-the-art novel revolutionary, violence, anger, storm, in the style of Paul Cézanne and Frida Kahlo"
+    },
+    {
+        "uid": "cc629039-5dcf-48cf-8b96-5d68d663530e",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "town downtown revolutionary novel futuristic, irritation, violence, enmity, in the style of Frida Kahlo and Franz Marc"
+    },
+    {
+        "uid": "a159f1b7-75dd-408a-a3d8-212839bf9a02",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "sky-watching vision innovative revolutionary state-of-the-art, outrage, storm, indignation, in the style of Piet Mondrian and Robert Delaunay"
+    },
+    {
+        "uid": "8ae2f2e9-94eb-40c2-b390-774a280dc686",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "astrometry stargazing pioneering innovative futuristic, storm, displeasure, indignation, in the style of Franz Marc and Piet Mondrian"
+    },
+    {
+        "uid": "5c36aaed-9541-4e69-b8ff-2b5b799c93b6",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "cubism",
+        "prompt": "stars universe innovative state-of-the-art pioneering, resentment, fury, irritation, in the style of Paul Cézanne and Piet Mondrian"
+    },
+    {
+        "uid": "5ffcd291-d62a-43b3-9cca-5ff441abe976",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "cosmos selenology visionary recent futuristic, amazement, awe, astonishment, in the style of Robert Delaunay and Paul Cézanne"
+    },
+    {
+        "uid": "972eb50d-f4f7-455e-9d9e-ccb35850c370",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "selenology sky-watching revolutionary novel futuristic, abruptness, astonishment, jolt, in the style of Cesar Legaspi and Pablo Picasso"
+    },
+    {
+        "uid": "b70ec6b3-2810-4148-90aa-7b2d8dd2c957",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "astrophysics astrolithology modern futuristic state-of-the-art, abruptness, amazement, awe, in the style of Cesar Legaspi and Frida Kahlo"
+    },
+    {
+        "uid": "b678ced6-917e-42a5-9195-a819cc7d90c1",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "port village state-of-the-art avant-garde revolutionary, consternation, revelation, awe, in the style of Jacques Lipchitz and Marc Chagall"
+    },
+    {
+        "uid": "d966b18d-380b-4ca6-b2d7-8c24c07f6900",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "village central pioneering modern futuristic, epiphany, astonishment, consternation, in the style of Frida Kahlo and Marc Chagall"
+    },
+    {
+        "uid": "17860c5f-e684-4468-bfb1-30373348f238",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "citified downtown novel futuristic pioneering, awe, miracle, astonishment, in the style of Marc Chagall and Piet Mondrian"
+    },
+    {
+        "uid": "52f45c0a-258f-42c2-a968-8341b48952d9",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "scenery sierra innovative revolutionary avant-garde, miracle, eureka, awe, in the style of Georges Braque and Paul Cézanne"
+    },
+    {
+        "uid": "cb4b3863-a20c-4cf9-ae5e-ba031cfe4f5c",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "sierra hill pioneering innovative modern, amazement, curiosity, jolt, in the style of Paul Cézanne and Kazimir Malevich"
+    },
+    {
+        "uid": "b864bd04-2de1-4483-a695-8092d7b04646",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "cubism",
+        "prompt": "sierra seascape futuristic recent novel, amazement, epiphany, curiosity, in the style of Marc Chagall and Paul Cézanne"
+    },
+    {
+        "uid": "44b60b23-cc1e-48b4-aaf9-59a6b7fffa90",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "scenery woods minimalist essential fundamental, awe, astonishment, revelation, in the style of Kazuko Miyamoto and Charlotte Posenenske"
+    },
+    {
+        "uid": "ebc48dbe-98c7-4f48-9fc8-8e95fe655ae5",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "mountain sierra indispensable crucial minimalist, awe, astonishment, curiosity, in the style of Yayoi Kusama and Şadi Çalık"
+    },
+    {
+        "uid": "e6d5853a-cb38-4588-ab4f-aac9e8f81de8",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "woods sierra nominal smallest vital, amazement, miracle, shock, in the style of Kazuko Miyamoto and Brice Marden"
+    },
+    {
+        "uid": "09ec2c5a-2bd9-4591-b896-21ffa0ae68e5",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "cosmopolitan town basic crucial indispensable, shock, eureka, consternation, in the style of James Hayward and Jo Baer"
+    },
+    {
+        "uid": "3467da45-d823-43dd-8a92-d2d62d0be0b0",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "downtown citified nominal imperative basic, consternation, curiosity, shock, in the style of Carl Andre and Deborah Hay"
+    },
+    {
+        "uid": "b43fd141-ed54-4a96-8333-ce20e3e0260a",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "port town nominal vital essential, astonishment, consternation, curiosity, in the style of Bill Bollinger and Félix González-Torres"
+    },
+    {
+        "uid": "6043d687-b618-4d77-b679-7be849105bdc",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "astrochemistry universe smallest fundamental minimal, bewilderment, amazement, miracle, in the style of Jack Goldstein and Regine Schumann"
+    },
+    {
+        "uid": "d12f96fa-808e-41b8-a09c-8bb1c6ca1b1d",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "sky-watching stargazing minimum minimal nominal, amazement, shock, revelation, in the style of Frank Stella and Nairy Baghramian"
+    },
+    {
+        "uid": "2ae09728-78b1-4108-b426-051bfd99e96c",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "minimalism",
+        "prompt": "cosmos sky-watching fundamental indispensable essential, shock, amazement, consternation, in the style of Nicholas Krushenick and Kazys Varnelis"
+    },
+    {
+        "uid": "00ce9b6e-3c22-4aa0-b6fd-93c42334d1e4",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "vision stargazing fundamental imperative minimal, animosity, impatience, annoyance, in the style of Mino Argento and Robert Grosvenor"
+    },
+    {
+        "uid": "42f67898-4804-4d66-9851-c5df1f367bf9",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "astrography astrometry smallest basic minimal, tantrum, anger, displeasure, in the style of Frank Stella and Charlotte Posenenske"
+    },
+    {
+        "uid": "491823b6-a284-4a02-95e7-1daa33ec7873",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "astrometry sky-watching nominal minimal minimum, displeasure, resentment, fury, in the style of James Hayward and Kazys Varnelis"
+    },
+    {
+        "uid": "1b468f83-bf1f-4335-b00d-11813c829693",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "metropolitan cosmopolitan basic essential fundamental, chagrin, storm, animosity, in the style of Anna Maria Maiolino and Didier Vermeiren"
+    },
+    {
+        "uid": "e9c07779-9060-480a-bb21-873efdea4666",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "port downtown nominal essential minimalist, displeasure, impatience, enmity, in the style of Leon Polk Smith and Regine Schumann"
+    },
+    {
+        "uid": "6e68e6d6-a69c-40a9-9c7b-4f162d740ee0",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "town metropolitan imperative minimalist vital, chagrin, antagonism, indignation, in the style of Vija Celmins and Frank Stella"
+    },
+    {
+        "uid": "9953053e-b154-41ef-98d1-5fb6a6b64f98",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "hill outdoors smallest nominal minimal, exasperation, antagonism, rage, in the style of Bill Bollinger and Roni Horn"
+    },
+    {
+        "uid": "276ce499-3d96-45cc-af04-936619c7fba8",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "scenery landscape basic essential crucial, outrage, indignation, irritation, in the style of Jan van der Vaart and Jean-Pierre Rives"
+    },
+    {
+        "uid": "3b56efb4-8e8f-4f5b-9cad-5a007ab08b04",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "minimalism",
+        "prompt": "cliff seascape crucial basic imperative, violence, displeasure, indignation, in the style of Jean-Pierre Rives and Peter Halley"
+    },
+    {
+        "uid": "71bc9339-ad89-426f-b2db-343486871326",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "scenery hill nominal basic imperative, cheerfulness, prosperity, delectation, in the style of Jean-Pierre Rives and Robert Mangold"
+    },
+    {
+        "uid": "fe5a7fba-68f4-43e7-b1c0-99a1027ab7b8",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "sierra landscape minimalist minimum minimal, pleasure, exhilaration, delirium, in the style of Bill Bollinger and Félix González-Torres"
+    },
+    {
+        "uid": "7d28cf28-ee63-4ea7-a468-21630831ac6c",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "hill outdoors fundamental crucial imperative, enchantment, well-being, contentment, in the style of Robert Morris and Roni Horn"
+    },
+    {
+        "uid": "9e8d29fa-40b1-4ea9-8024-7e79681ed834",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "inner-city central vital essential nominal, glee, jubilation, delirium, in the style of Brice Marden and Roni Horn"
+    },
+    {
+        "uid": "ce21080b-03e0-41ba-8293-790501f5b2d5",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "town municipality indispensable essential minimal, jubilation, delight, enchantment, in the style of Robert Grosvenor and Richard Serra"
+    },
+    {
+        "uid": "0e401360-9e7b-45aa-8d1a-8f4ed34ea3c0",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "cosmopolitan central fundamental minimum crucial, enchantment, delectation, euphoria, in the style of Frank Stella and Jack Youngerman"
+    },
+    {
+        "uid": "51084bf7-971f-4d4a-9350-2da77f442092",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "universe vision essential vital minimum, jubilation, elation, cheerfulness, in the style of Félix González-Torres and Lenore Tawney"
+    },
+    {
+        "uid": "090fe8d5-23f7-4ec7-ac57-8d9abacdd9ea",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "stars stargazing nominal indispensable fundamental, enchantment, beatitude, enjoyment, in the style of Nicholas Krushenick and Leon Polk Smith"
+    },
+    {
+        "uid": "0a175ed5-074d-408b-96b1-a0d50deecd04",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "minimalism",
+        "prompt": "selenology cosmos imperative vital minimalist, euphoria, delectation, well-being, in the style of Kazuko Miyamoto and Frank Stella"
+    },
+    {
+        "uid": "b08430ce-c357-4334-ae27-3344ed9994fb",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "stargazing astrolithology nebulous fictitious notional, ecstasy, exhilaration, pleasure, in the style of Dianno A. Jakelj and Hans Arp"
+    },
+    {
+        "uid": "7d7f4c19-9965-4f7c-8b1a-6b7c2e0fe565",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "astrophysics cosmos artificial hallucinatory fanciful, contentment, enjoyment, delirium, in the style of Frank Stella and Rose Piper"
+    },
+    {
+        "uid": "3682a36b-9629-4837-8407-e414d7105414",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "stargazing astrophysics illusory invented mythical, glee, jubilation, joy, in the style of Brice Marden and Joan Miró"
+    },
+    {
+        "uid": "d41c0985-e278-43ee-a870-e3c54af68ae1",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "downtown central fictive fanciful hypothetical, optimism, jubilation, laughter, in the style of Franz Kline and Clyfford Still"
+    },
+    {
+        "uid": "be1ce41b-e009-4c4b-a98d-cca97aafda8f",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "inner-city city complex nebulous nonconcrete, joy, passion, beatitude, in the style of Heather Day and Bridget Riley"
+    },
+    {
+        "uid": "26cd7aba-d44b-44b4-a9c3-f2cb8f2e4408",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "village downtown invented nonexistent philosophical, delight, well-being, laughter, in the style of Piet Mondrian and Julie Mehretu"
+    },
+    {
+        "uid": "273ee53e-6bca-4d7e-94c2-1fce33f960e7",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "countryside outdoors fanciful artificial notional, delectation, fantasm, enjoyment, in the style of Paul Klee and Brice Marden"
+    },
+    {
+        "uid": "47927326-68f3-488e-8939-406a2e9478cc",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "mountain countryside hallucinatory transcendent unreal, pleasure, delirium, enjoyment, in the style of Hilma af Klint and Henry Moore"
+    },
+    {
+        "uid": "9110d075-6e92-4690-936f-86cb89cb6a58",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "abstract",
+        "prompt": "hill cliff intangible philosophical nonconcrete, pleasure, delectation, euphoria, in the style of Paul Klee and Bridget Riley"
+    },
+    {
+        "uid": "a26ea834-1557-411b-a89e-7ef7ecef2fa0",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "seascape cliff nonexistent mythical fictive, anger, impatience, irritation, in the style of Vincent van Gogh and Hans Arp"
+    },
+    {
+        "uid": "367c1ede-7808-4a87-8578-8985f9570f31",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "sierra cliff figmental complex dreamlike, acrimony, chagrin, storm, in the style of Paul Klee and Gerhard Richter"
+    },
+    {
+        "uid": "78b9ad4b-e21a-4f47-b24d-dd9c5be8551e",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "outdoors hill transcendent artificial figmental, resentment, tantrum, chagrin, in the style of Paul Klee and Hans Arp"
+    },
+    {
+        "uid": "053caed2-3999-49f2-afad-1ab6bb38e621",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "downtown central artificial indefinite delusive, anger, rage, fury, in the style of Christopher Wool and Christian Bonnefoi"
+    },
+    {
+        "uid": "4386c3fa-16d1-4785-9314-d7fc6e921c3c",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "port inner-city phantasmagoric figmental fanciful, hatred, chagrin, outrage, in the style of Lyubov Popova and David Cook"
+    },
+    {
+        "uid": "55139785-16cc-41f2-919a-29c1f389c789",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "metropolitan downtown mythical nonexistent indefinite, resentment, displeasure, chagrin, in the style of Robert Delaunay and Sam Gilliam"
+    },
+    {
+        "uid": "bbc8a62b-6c42-4076-bf0c-38862622d44d",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "astrophysics stargazing artificial phantasmagoric illusory, displeasure, annoyance, rage, in the style of John Armleder and Brice Marden"
+    },
+    {
+        "uid": "00ac701a-1a61-40c0-b507-6f190ced1960",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "astrophysics astrography transcendent immaterial philosophical, displeasure, resentment, annoyance, in the style of Lyubov Popova and Zao Wou-Ki"
+    },
+    {
+        "uid": "d54be75b-6c24-4a9c-8543-dc5a823032ae",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "abstract",
+        "prompt": "stargazing astronomy fictive unreal illusory, impatience, animosity, indignation, in the style of Gerhard Richter and Trudy Benson"
+    },
+    {
+        "uid": "81c57e4d-99ca-4e02-86c0-737683db6ceb",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "stargazing astrochemistry fanciful fabled philosophical, bewilderment, eureka, amazement, in the style of Christian Bonnefoi and Joan Miró"
+    },
+    {
+        "uid": "efe75029-edf2-4904-b4de-755d338c7a2e",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "astrolithology selenology notional indefinite abstract, miracle, jolt, curiosity, in the style of Jackson Pollock and Georgia O'Keeffe"
+    },
+    {
+        "uid": "07c66a50-34d8-45e9-a337-498611602a46",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "cosmos sky-watching chimerical hypothetical nebulous, jolt, awe, revelation, in the style of Sonia Delaunay and Aelita Andre"
+    },
+    {
+        "uid": "993e7c48-c214-44df-bc10-94b22a5efbba",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "village cosmopolitan nonconcrete immaterial fanciful, amazement, epiphany, eureka, in the style of Helen Frankenthaler and Robert Ryman"
+    },
+    {
+        "uid": "bc7efbae-1972-4cda-8b95-230fdf227a28",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "metropolitan village indefinite fictive dreamlike, amazement, miracle, abruptness, in the style of Sam Gilliam and Joan Mitchell"
+    },
+    {
+        "uid": "65201673-617f-464c-96dc-b6fe7eb39a65",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "village port impalpable imaginary complex, miracle, awe, consternation, in the style of Jackson Pollock and Joan Miró"
+    },
+    {
+        "uid": "b5a20b9d-c4f7-4e75-a831-f63918b09c27",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "scenery forest artificial figmental chimerical, amazement, jolt, revelation, in the style of John Olsen and Georgia O'Keeffe"
+    },
+    {
+        "uid": "5f764453-dcaa-445f-9163-645931f48308",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "scenery sierra philosophical intangible fictitious, astonishment, shock, amazement, in the style of Alma Thomas and Paul Klee"
+    },
+    {
+        "uid": "b44925e3-4471-490c-964b-413b4c6bb432",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "abstract",
+        "prompt": "seascape sierra dreamlike unreal nebulous, consternation, astonishment, curiosity, in the style of Piet Mondrian and Jackson Pollock"
+    },
+    {
+        "uid": "8e953bd9-0a7f-42ef-bda2-ebf84540ff0c",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "volcano environment tangibility realness truth, bewilderment, epiphany, astonishment, in the style of Helene Schjerfbeck and Juan Luna"
+    },
+    {
+        "uid": "9e4a4364-7676-4219-9e2f-753361535403",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "volcano sierra verity certainty solidity, amazement, revelation, eureka, in the style of Alma Thomas and Giorgio Morandi"
+    },
+    {
+        "uid": "9358d37c-f975-45fc-a3e3-6772b545ab0f",
+        "theme": "nature",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "forest countryside solidity reality verity, amazement, awe, abruptness, in the style of Honoré Daumier and Konstantin Makovsky"
+    },
+    {
+        "uid": "913b36f2-17b4-4675-ba35-158c345e84e1",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "municipality metropolitan substance matter truth, curiosity, bewilderment, eureka, in the style of Amelia Alcock-White and Leon Wyczółkowski"
+    },
+    {
+        "uid": "b0412dc0-a392-485c-a4b0-da256b6cdfae",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "city citified naturalness absoluteness matter, curiosity, jolt, astonishment, in the style of N. C. Wyeth and Edward Hopper"
+    },
+    {
+        "uid": "16c2c0cf-611d-47f9-a8d9-5987b846d1db",
+        "theme": "urban",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "capital downtown actuality tangibility verity, shock, eureka, jolt, in the style of Jules Bastien-Lepage and Gustave Caillebotte"
+    },
+    {
+        "uid": "2cd9b7c5-e0d8-47c2-bd21-7096bde0dab2",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "astrophysics astronomy palpability verity realness, jolt, shock, amazement, in the style of Jean-Baptiste-Camille Corot and Leon Wyczółkowski"
+    },
+    {
+        "uid": "65a2cf49-d8a5-4b55-a5d7-ded4aff28d38",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "universe stargazing authenticity substantive realness, epiphany, curiosity, revelation, in the style of Honoré Daumier and Akseli Gallen-Kallela"
+    },
+    {
+        "uid": "6a8ed0a3-065f-4f55-82d5-5dee83311b6d",
+        "theme": "astronomy",
+        "emotion": "surprise",
+        "style": "realism",
+        "prompt": "selenology cosmos realness truth materiality, eureka, revelation, awe, in the style of Helene Schjerfbeck and José Ferraz de Almeida Júnior"
+    },
+    {
+        "uid": "4e6fb0a6-0b2f-4109-ae44-78265b2a8cf1",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "stargazing astrometry substantiality authenticity materiality, rage, displeasure, irritation, in the style of Ivan Shishkin and Edward Hopper"
+    },
+    {
+        "uid": "73dfd835-34c3-4c16-8841-94feb23dc959",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "selenology astrolithology genuineness concreteness verisimilitude, outrage, hatred, exasperation, in the style of Ferdinand Georg Waldmüller and Leon Wyczółkowski"
+    },
+    {
+        "uid": "205014bb-b905-4598-bb38-cd05c040e72e",
+        "theme": "astronomy",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "universe stargazing materiality verity concreteness, outrage, animosity, exasperation, in the style of Vasily Surikov and Antonio López García"
+    },
+    {
+        "uid": "201f8032-20c9-406a-ad2f-f7c5c846409c",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "citified cosmopolitan substantiality validity substantive, impatience, resentment, exasperation, in the style of Antonio López García and Albert Edelfelt"
+    },
+    {
+        "uid": "f5057c3a-b7f0-476b-b54c-62b59aad2c3a",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "metropolitan cosmopolitan substance verity palpability, outrage, violence, anger, in the style of Józef Chełmoński and Jean-François Millet"
+    },
+    {
+        "uid": "74de67ba-dd25-4348-8b5f-f793e5ae04d1",
+        "theme": "urban",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "village cosmopolitan genuineness certainty naturalness, rage, displeasure, annoyance, in the style of Ivan Kramskoi and Pietro Annigoni"
+    },
+    {
+        "uid": "67e956a8-4c79-4c5c-9e45-7a129594b6c5",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "countryside volcano matter palpability naturalness, annoyance, resentment, displeasure, in the style of Alfredo Valenzuela Puelma and Gerhard Richter"
+    },
+    {
+        "uid": "99e7b816-2440-43c4-a29e-b58e313eeea0",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "mountain environment absoluteness verity realism, acrimony, anger, rage, in the style of Ferdinand Georg Waldmüller and Helene Schjerfbeck"
+    },
+    {
+        "uid": "d9b947a3-8426-40f6-a8d1-761a5fcb3f8d",
+        "theme": "nature",
+        "emotion": "anger",
+        "style": "realism",
+        "prompt": "environment woods certainty verism palpability, irritation, storm, fury, in the style of Augusta Savage and Mihály Munkácsy"
+    },
+    {
+        "uid": "215cda4e-620e-4359-80c5-d02c23da44cf",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "volcano landscape realism actuality genuineness, exhilaration, delight, cheerfulness, in the style of Adolph Menzel and Thomas Eakins"
+    },
+    {
+        "uid": "fefcac35-04a3-46ad-87bc-9cdb40dfd9b5",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "landscape environment certainty verity reality, optimism, well-being, passion, in the style of Anton Mauve and Alma Thomas"
+    },
+    {
+        "uid": "6e89d383-80d1-4188-b21c-ad8024834cc5",
+        "theme": "nature",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "scenery mountain verity concreteness substantiality, euphoria, prosperity, laughter, in the style of Isaac Levitan and Vasily Surikov"
+    },
+    {
+        "uid": "4fae1481-7e84-48c6-a402-0aa36bdbb341",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "port citified actuality naturalness authenticity, delight, exhilaration, optimism, in the style of Akseli Gallen-Kallela and Edward Hopper"
+    },
+    {
+        "uid": "f0050aeb-31ee-4f37-afdf-a8097dee53ad",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "capital cosmopolitan substantive verism absoluteness, cheerfulness, optimism, jubilation, in the style of Vilhelm Hammershøi and Duane Hanson"
+    },
+    {
+        "uid": "02eb8e27-9465-4be7-8804-75e08630de1e",
+        "theme": "urban",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "village central authenticity genuineness truth, delectation, glee, optimism, in the style of Alexei Savrasov and Vasily Surikov"
+    },
+    {
+        "uid": "2eab00b2-0a5a-4b87-94c8-16cfad5e33df",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "cosmos universe solidity realness substantiality, passion, enchantment, fantasm, in the style of Pietro Annigoni and Giorgio Morandi"
+    },
+    {
+        "uid": "7e6a8ad9-6a2b-4bc5-ae88-4cbc64c02a29",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "cosmos vision palpability materiality genuineness, euphoria, passion, optimism, in the style of Hiroshi Noda and Uroš Predić"
+    },
+    {
+        "uid": "4a368650-1a37-4e57-8225-71a717e61a18",
+        "theme": "astronomy",
+        "emotion": "happiness",
+        "style": "realism",
+        "prompt": "stargazing astrometry authenticity verism truth, jubilation, exhilaration, passion, in the style of N. C. Wyeth and Vilhelm Hammershøi"
+    }
+]
