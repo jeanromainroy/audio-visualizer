@@ -1,28 +1,37 @@
 <script>
     
-    // load dataframe
-    import dataframe from '../data/prompts.json';
+    // libs
+    import { onMount } from 'svelte';
 
     // UI properties
+    let concept_tree = {};
+    let concept_keys = null;
+    let dataframe = null;
     let prompt_displayed = '';
     let url_gif = null;
     let selector = {};
+    let ready = false;
 
 
-    // extract concepts, subconcepts and prompts from dataframe
-    const concept_tree = {};
-    const concept_keys = Object.keys(dataframe[0]).filter(d => !['uid', 'prompt'].includes(d));
-    concept_keys.forEach(concept_key => concept_tree[concept_key] = new Set());
-    dataframe.forEach(datum => {
-        concept_keys.forEach(concept_key => {
-            concept_tree[concept_key].add(datum[concept_key]);
-        })
-    });
-    concept_keys.forEach(concept_key => concept_tree[concept_key] = [...concept_tree[concept_key]])
+    // helper function to load prompts
+    async function load_dataframe() {
 
+        // params
+        const url = '/prompts.json';
+        const opts = {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' }
+        }
 
-    // scaffold selector
-    concept_keys.forEach(concept_key => selector[concept_key] = null);
+        // send request
+        const response = await fetch(url, opts);
+
+        // data
+        const data = await response.json();
+
+        // return
+        return data;
+    }
 
 
     // helper function to get prompts from a selection
@@ -66,6 +75,30 @@
     }
 
 
+    onMount(async () => {
+
+        // load prompts
+        dataframe = await load_dataframe();
+
+        // extract concepts, subconcepts and prompts from dataframe
+        concept_keys = Object.keys(dataframe[0]).filter(d => !['uid', 'prompt'].includes(d));
+        concept_keys.forEach(concept_key => concept_tree[concept_key] = new Set());
+        dataframe.forEach(datum => {
+            concept_keys.forEach(concept_key => {
+                concept_tree[concept_key].add(datum[concept_key]);
+            })
+        });
+        concept_keys.forEach(concept_key => concept_tree[concept_key] = [...concept_tree[concept_key]])
+
+
+        // scaffold selector
+        concept_keys.forEach(concept_key => selector[concept_key] = null);
+
+
+        // set ready flag
+        ready = true;
+    })
+
 </script>
 
 <main>
@@ -86,6 +119,7 @@
     <div id="config-panel">
 
         <!-- For each concept -->
+        {#if ready === true}
         {#each Object.keys(concept_tree) as concept_key}
 
             <!-- Title -->
@@ -99,6 +133,7 @@
             </div>
 
         {/each}
+        {/if}
 
     </div>
 
