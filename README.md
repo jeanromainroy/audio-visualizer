@@ -1,6 +1,13 @@
 # Audio Visualizer
 
-An audio-driven artwork visualizer. Demonstration available [here](http://15.223.5.40:8082/).
+An audio-driven artwork visualizer. 
+
+## Demonstration
+
+Webapp available [here](http://15.223.5.40:8082/).
+
+Recording of a live performance available [here](https://youtu.be/AnA1DCfEnog).
+
 
 ## Prompt Generator
 
