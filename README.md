@@ -117,9 +117,7 @@ The helper scripts are described below.
         ...
     ]
 
-**gifyer.py** - combines the images of each prompt into a GIF. 
-
-**copier.py** - copies the GIFs to an S3 bucket. 
+**copier.py** - copies the images to an S3 bucket. 
 
 
 ## Artwork Visualizer
@@ -141,7 +139,7 @@ A webapp is used to visualize the generated artwork. Here are the steps to insta
 
 Copy your prompts.json file to [public](./public/)
 
-Copy all your generated GIFs to the [gifs](./public/gifs/) folder. 
+Copy all your generated images to the [assets](./public/assets/) folder. 
 
 
 ## Benchmarking

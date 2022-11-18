@@ -3,8 +3,8 @@ import os
 from glob import glob
 from config import WORKDIR, S3_BUCKET
 
-# grab all GIFs
-filepaths = glob(f"{WORKDIR}*/*.gif")
+# grab all images
+filepaths = glob(f"{WORKDIR}*/*/*.jpg")
 
 # copy on a s3 bucket
 for filepath in filepaths:

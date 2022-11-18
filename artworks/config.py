@@ -9,5 +9,3 @@ S3_BUCKET = "s3://image-generation/2022-11-12/"
 # image generation
 NBR_OF_ARTWORKS_PER_PROMPT = 60
 
-# gif
-STEP_TIME_MS = 2000

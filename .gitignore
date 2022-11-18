@@ -1,7 +1,7 @@
 node_modules/
 package-lock.json
 .DS_Store
-*.gif
 prompts-*.json
 bundle.*
 public/prompts.json
+public/assets/*/
