@@ -23,6 +23,7 @@
     let selector = {};
     let ready = false;
     let speed_val = 50;
+    let preloaded_counter = 0;
     
 
     // helper function to get prompts from a selection
@@ -40,9 +41,9 @@
 
         // init
         images_df = {};
-
+        
         // load images
-        prompts_df.forEach(async (prompt_datum) => {
+        for (const prompt_datum of prompts_df){
 
             // destructure
             const { uid } = prompt_datum;
@@ -67,6 +68,7 @@
                 await new Promise(resolve => {
                     img.onload = () => {
                         images_df[uid].push(img);
+                        preloaded_counter += 1;
                         resolve();
                     }
                     img.onerror = () => {
@@ -74,7 +76,7 @@
                     }
                 });
             }
-        });
+        }
     }
 
 
@@ -217,6 +219,8 @@
                 <p style="margin-left: 16px;">{speed_val}</p>
             </div>
 
+        {:else}
+            <p style="text-align: center; margin-top: 40vh; font-size: 24px">{preloaded_counter} artworks loaded</p>
         {/if}
         </div>
     </div>
