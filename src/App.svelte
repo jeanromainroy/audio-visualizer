@@ -2,11 +2,12 @@
     
     // libs
     import { onMount } from 'svelte';
-    import { load_json } from './helper.js';
+    import { load_json, getUrlParams } from './helper.js';
 
     // config
     const NBR_IMAGES_PER_UID = 60;
-    const NBR_IMAGES_SAMPLED_PER_UID = 8; // must be smaller than NBR_IMAGES_PER_UID
+    let NBR_IMAGES_SAMPLED_PER_UID = 10; // must be smaller than NBR_IMAGES_PER_UID
+    const URL_PARAM_KEY_SAMPLE_SIZE = 'sample_size';
 
     // properties - data
     let concept_tree = {};
@@ -24,6 +25,7 @@
     let ready = false;
     let speed_val = 50;
     let preloaded_counter = 0;
+    let preloaded_total = 0;
     
 
     // helper function to get prompts from a selection
@@ -41,6 +43,9 @@
 
         // init
         images_df = {};
+
+        // set total number of images 
+        preloaded_total = NBR_IMAGES_SAMPLED_PER_UID * prompts_df.length;
         
         // load images
         for (const prompt_datum of prompts_df){
@@ -49,13 +54,20 @@
             const { uid } = prompt_datum;
 
             // init
+            let indexes = new Set();
             images_df[uid] = [];
 
             // push a random sample of the images
             while ( images_df[uid].length < NBR_IMAGES_SAMPLED_PER_UID ) {
 
                 // generate a random index
-                const random_index = Math.round(Math.random() * NBR_IMAGES_PER_UID);
+                const random_index = Math.ceil(Math.random() * NBR_IMAGES_PER_UID);
+
+                // check if we have already tried it
+                if (indexes.has(random_index)) continue;
+
+                // if not add
+                indexes.add(random_index);
 
                 // build url
                 const image_url = `assets/${uid}/${random_index}.jpg`;
@@ -67,8 +79,14 @@
                 // wait until it's done loading 
                 await new Promise(resolve => {
                     img.onload = () => {
+
+                        // add image
                         images_df[uid].push(img);
+
+                        // increment preloaded counter
                         preloaded_counter += 1;
+
+                        // done
                         resolve();
                     }
                     img.onerror = () => {
@@ -143,7 +161,36 @@
     }
 
 
+    function check_url_sample_size(){
+
+        // get url params
+        const url_params = getUrlParams(window.location.href);
+
+        // check if param is present
+        if (url_params[URL_PARAM_KEY_SAMPLE_SIZE] === undefined || url_params[URL_PARAM_KEY_SAMPLE_SIZE] === null) return;
+
+        // destructure
+        const sample_size = url_params[URL_PARAM_KEY_SAMPLE_SIZE];
+
+        // check further
+        if (isNaN(sample_size)) return;
+        if (+sample_size !== Math.round(+sample_size)) return;
+
+        // verify size
+        if (+sample_size < 3 || +sample_size > NBR_IMAGES_PER_UID * 0.9) return;
+
+        // set
+        NBR_IMAGES_SAMPLED_PER_UID = +sample_size;
+    }
+
+
     onMount(async () => {
+
+        // check if sample size is provided in url
+        check_url_sample_size();
+
+        // log
+        console.log(`Number of images used by prompt is ${NBR_IMAGES_SAMPLED_PER_UID}`);
 
         // load prompts
         prompts_df = await load_json('/prompts.json');
@@ -220,7 +267,7 @@
             </div>
 
         {:else}
-            <p style="text-align: center; margin-top: 40vh; font-size: 24px">{preloaded_counter} artworks loaded</p>
+            <p style="text-align: center; margin-top: 40vh; font-size: 24px">artworks loaded:&nbsp&nbsp{preloaded_counter}/{preloaded_total}</p>
         {/if}
         </div>
     </div>
