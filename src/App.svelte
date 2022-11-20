@@ -2,7 +2,7 @@
     
     // libs
     import { onMount } from 'svelte';
-    import { load_json, getUrlParams } from './helper.js';
+    import { load_json, load_image, return_url_param } from './helper.js';
 
     // config
     const NBR_IMAGES_PER_UID = 60;
@@ -26,75 +26,66 @@
     let speed_val = 50;
     let preloaded_counter = 0;
     let preloaded_total = 0;
-    
 
-    // helper function to get prompts from a selection
-    function get_prompts_by_selection(selection) {
-        return prompts_df.filter(datum => {
-            for (const concept_key of concept_keys){
-                if (datum[concept_key] != selection[concept_key]) return false;
-            }
-            return true;
-        });
-    }
 
 
     async function preload_artworks(){
 
         // init
         images_df = {};
+        let counter = 0;
 
         // set total number of images 
         preloaded_total = NBR_IMAGES_SAMPLED_PER_UID * prompts_df.length;
         
         // load images
-        for (const prompt_datum of prompts_df){
+        await new Promise(resolve => {
+            prompts_df.forEach(async (prompt_datum) => {
 
-            // destructure
-            const { uid } = prompt_datum;
+                // destructure
+                const { uid } = prompt_datum;
 
-            // init
-            let indexes = new Set();
-            images_df[uid] = [];
+                // init
+                let indexes = new Set();
+                images_df[uid] = [];
 
-            // push a random sample of the images
-            while ( images_df[uid].length < NBR_IMAGES_SAMPLED_PER_UID ) {
+                // push a random sample of the images
+                while ( images_df[uid].length < NBR_IMAGES_SAMPLED_PER_UID ) {
 
-                // generate a random index
-                const random_index = Math.ceil(Math.random() * NBR_IMAGES_PER_UID);
+                    // generate a random index
+                    const random_index = Math.ceil(Math.random() * NBR_IMAGES_PER_UID);
 
-                // check if we have already tried it
-                if (indexes.has(random_index)) continue;
+                    // check if we have already tried it
+                    if (indexes.has(random_index)) continue;
 
-                // if not add
-                indexes.add(random_index);
+                    // if not add
+                    indexes.add(random_index);
 
-                // build url
-                const image_url = `assets/${uid}/${random_index}.jpg`;
+                    // build url
+                    const image_url = `assets/${uid}/${random_index}.jpg`;
 
-                // instantiate
-                const img = new Image();
-                img.src = image_url;
+                    // load
+                    const img = await load_image(image_url);
 
-                // wait until it's done loading 
-                await new Promise(resolve => {
-                    img.onload = () => {
+                    // validate
+                    if (img === null) continue;
 
-                        // add image
-                        images_df[uid].push(img);
+                    // add image
+                    images_df[uid].push(img);
 
-                        // increment preloaded counter
-                        preloaded_counter += 1;
+                    // increment preloaded counter
+                    preloaded_counter += 1;
+                }
 
-                        // done
-                        resolve();
-                    }
-                    img.onerror = () => {
-                        resolve();
-                    }
-                });
-            }
-        }
+                // done
+                counter += 1;
+
+                // check
+                if (counter === prompts_df.length) {
+                    resolve()
+                }
+            });
+        })
     }
 
 
@@ -147,7 +138,12 @@
         if (Object.values(selector).filter(val => val === undefined || val === null).length > 0) return;
 
         // get prompts matching selector
-        const prompts = get_prompts_by_selection(selector);
+        const prompts = prompts_df.filter(datum => {
+            for (const concept_key of concept_keys){
+                if (datum[concept_key] != selection[concept_key]) return false;
+            }
+            return true;
+        });
 
         // select at random
         const prompt_selected = prompts[Math.floor(Math.random() * prompts.length)];
@@ -161,23 +157,15 @@
     }
 
 
-    function check_url_sample_size(){
+    function load_sample_size_from_url() {
 
-        // get url params
-        const url_params = getUrlParams(window.location.href);
+        // check if sample size is provided in url
+        const sample_size = return_url_param(URL_PARAM_KEY_SAMPLE_SIZE);
 
-        // check if param is present
-        if (url_params[URL_PARAM_KEY_SAMPLE_SIZE] === undefined || url_params[URL_PARAM_KEY_SAMPLE_SIZE] === null) return;
-
-        // destructure
-        const sample_size = url_params[URL_PARAM_KEY_SAMPLE_SIZE];
-
-        // check further
-        if (isNaN(sample_size)) return;
-        if (+sample_size !== Math.round(+sample_size)) return;
-
-        // verify size
-        if (+sample_size < 3 || +sample_size > NBR_IMAGES_PER_UID * 0.9) return;
+        // validate
+        if (sample_size === undefined || sample_size === null || 
+            isNaN(sample_size) || +sample_size !== Math.round(+sample_size) ||
+            +sample_size < 3 || +sample_size > NBR_IMAGES_PER_UID * 0.9) return;
 
         // set
         NBR_IMAGES_SAMPLED_PER_UID = +sample_size;
@@ -186,8 +174,8 @@
 
     onMount(async () => {
 
-        // check if sample size is provided in url
-        check_url_sample_size();
+        // load sample size
+        load_sample_size_from_url();
 
         // log
         console.log(`Number of images used by prompt is ${NBR_IMAGES_SAMPLED_PER_UID}`);

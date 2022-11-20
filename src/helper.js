@@ -20,6 +20,31 @@ export async function load_json(url) {
     return data;
 }
 
+// helper function to load image
+export async function load_image(url){
+
+    // init
+    let success = false;
+
+    // instantiate
+    const img = new Image();
+    img.src = url;
+
+    // wait until it's done loading 
+    await new Promise(resolve => {
+        img.onload = () => { 
+            success = true;
+            resolve();
+        }
+        img.onerror = () => resolve();
+    });
+
+    // validate
+    if (!success) return null;
+
+    return img;
+}
+
 
 export function getUrlParams(url){
     
@@ -56,4 +81,16 @@ export function getUrlParams(url){
     })
     
     return params 
+}
+
+
+export function return_url_param(param_key){
+
+    // get url params
+    const url_params = getUrlParams(window.location.href);
+
+    // check if param is present
+    if (url_params[param_key] === undefined || url_params[param_key] === null) return null;
+
+    return url_params[param_key];
 }
