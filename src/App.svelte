@@ -140,7 +140,7 @@
         // get prompts matching selector
         const prompts = prompts_df.filter(datum => {
             for (const concept_key of concept_keys){
-                if (datum[concept_key] != selection[concept_key]) return false;
+                if (datum[concept_key] != selector[concept_key]) return false;
             }
             return true;
         });
